@@ -2,10 +2,10 @@
   "name": "machinecoding",
   "version": "1.0.0",
   "description": "",
-  "main": "map-polyfill.js",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon map-polyfill.js",
-    "dev": "nodemon map-polyfill.js",
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
