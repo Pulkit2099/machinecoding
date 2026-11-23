@@ -4,7 +4,7 @@ Array.prototype.myMap = function (cb) {
   for (let i = 0; i < this.length; i++) {
     result.push(cb(this[i]));
   }
-
+  return result;
 }
 
 let arr=[2,4,6,8,10]
