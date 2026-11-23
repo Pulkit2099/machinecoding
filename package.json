@@ -1,0 +1,26 @@
+{
+  "name": "machinecoding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "map-polyfill.js",
+  "scripts": {
+    "start": "nodemon map-polyfill.js",
+    "dev": "nodemon map-polyfill.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pulkit2099/machinecoding.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Pulkit2099/machinecoding/issues"
+  },
+  "homepage": "https://github.com/Pulkit2099/machinecoding#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
