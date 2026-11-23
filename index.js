@@ -1,18 +1,17 @@
-Array.prototype.myFilter=function(cb){
-let res=[]
-for(let i=0;i<this.length;i++)
+function Flatten(arr)
 {
-if(cb(this[i]))
-{
+    let res=[]
+    for(let i=0;i<arr.length;i++)
+    {
+        if(Array.isArray(arr[i])){
 
-    res.push(this[i])
+            res.push(...arr[i])
+        }
+        else{
+            res.push(arr[i])
+        }
+    }
+    return res
 }
-
-
-}
-return res
-
-}
-let arr=[2,4,6,8,10]
-let c=arr.myFilter((res)=>res>2)
-console.log(c)
+const arr=[1,2,3,[4,5,6],7,8]
+console.log(Flatten(arr))
